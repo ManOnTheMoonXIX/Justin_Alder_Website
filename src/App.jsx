@@ -9,7 +9,7 @@ function App() {
     <div className="scroll-smooth relative h-screen font-outfit overflow-y-auto">
       <div
         id="Home"
-        className="min-h-screen w-full relative bg-city bg-fixed bg-center bg-no-repeat bg-cover"
+        className="min-h-screen w-full relative bg-gray-950 bg-fixed bg-center bg-no-repeat bg-cover"
       >
         <Navbar />
         <div>
