@@ -9,7 +9,7 @@ function App() {
     <div className="scroll-smooth relative h-screen font-outfit overflow-y-auto">
       <div
         id="Home"
-        className="min-h-screen w-full relative bg-city bg-fixed bg-center bg-no-repeat bg-cover"
+        className="min-h-screen w-full relative bg-[url('./assets/citybg.jpeg')] bg-fixed bg-center bg-no-repeat bg-cover"
       >
         <Navbar />
         <div>
@@ -31,7 +31,7 @@ function App() {
 
       <div
         id="Contact"
-        className="min-h-screen w-full relative bg-city bg-fixed bg-center bg-no-repeat bg-cover"
+        className="min-h-screen w-full relative bg-[url('/citybg.jpeg')] bg-fixed bg-center bg-no-repeat bg-cover"
       >
         <Contact />
       </div>
