@@ -1,9 +1,9 @@
-import Contact from "src/components/Contact/Contact";
-import LandingPage from "src/components/LandingPage/LandingPage";
-import Navbar from "src/components/Navbar/Navbar";
-import Projects from "src/components/Project_/Projects";
-import Skills from "src/components/Skills/Skills";
-import Education from "src/components/Education/Education";
+import Contact from "./components/Contact/Contact";
+import LandingPage from "./components/LandingPage/LandingPage";
+import Navbar from "./components/Navbar/Navbar";
+import Projects from "./components/Project_/Projects";
+import Skills from "./components/Skills/Skills";
+import Education from "./components/Education/Education";
 function App() {
   return (
     <div className="scroll-smooth relative h-screen font-outfit overflow-y-auto">

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import wolmers from "src/assets/wolmerscrest.jpeg";
-import utech from "src/assets/utechcrest.jpeg";
+import wolmers from "../../assets/wolmerscrest.jpeg";
+import utech from "../../assets/utechcrest.jpeg";
 import { Tilt } from "react-tilt";
 
 function Education() {
