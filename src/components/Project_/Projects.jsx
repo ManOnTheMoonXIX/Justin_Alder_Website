@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ProjectCard from "./ProjectCard";
-import easterEggAudio from "../../assets/easteregg.mp3";
+import ProjectCard from "src/components/Project_/ProjectCard";
+import easterEggAudio from "src/assets/easteregg.mp3";
 
 function Projects() {
   const [showGif, setShowGif] = useState(false);

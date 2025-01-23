@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import menu from "../../assets/menu.svg";
-import close from "../../assets/close.svg";
+import menu from "src/assets/menu.svg";
+import close from "src/assets/close.svg";
 
 const MENU_ITEMS = ["Home", "Skills", "Projects", "Education", "Contact"];
 
