@@ -31,7 +31,7 @@ function App() {
 
       <div
         id="Contact"
-        className="min-h-screen w-full relative bg-[url('/citybg.jpeg')] bg-fixed bg-center bg-no-repeat bg-cover"
+        className="min-h-screen w-full relative bg-[url('./assets/citybg.jpeg')] bg-fixed bg-center bg-no-repeat bg-cover"
       >
         <Contact />
       </div>
