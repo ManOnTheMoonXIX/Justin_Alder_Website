@@ -11,7 +11,7 @@ function Projects() {
     {
       title: "Personal Website",
       main: "Yes, I'm including this website in my projects section.",
-      languages: ["React", "Vite", "Tailwind CSS"],
+      languages: ["React/Vite", "JavaScript", "Tailwind CSS"],
       demoLink: "",
       sourceLink: "",
     },

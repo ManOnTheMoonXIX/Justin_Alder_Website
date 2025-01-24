@@ -95,7 +95,7 @@ function Skills() {
   };
 
   return (
-    <div className="p-4 md:p-8 lg:p-12 text-white">
+    <div className="p-4 md:p-8 lg:p-12 text-white intersect:motion-preset-slide-up">
       <h2 className="text-2xl mt-14 md:text-4xl font-bold mb-4 text-center">
         Skills
       </h2>

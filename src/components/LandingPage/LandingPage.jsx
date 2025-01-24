@@ -53,6 +53,13 @@ function LandingPage() {
 
       <div className={`mt-6 ${fadeInClass}`}>
         <button
+          onClick={() =>
+            window.open(
+              "https://docs.google.com/document/d/1xoFjRudN873ymSm9EjTEtpylyrRVXfOGqfNJnFLfrTw/edit?usp=sharing",
+              "_blank",
+              "noopener,noreferrer"
+            )
+          }
           className="
           text-sm md:text-lg 
           border-[#66FCF1] border-2 rounded-md

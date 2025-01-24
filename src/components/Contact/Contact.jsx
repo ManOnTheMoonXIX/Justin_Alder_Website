@@ -91,7 +91,7 @@ function Contact() {
         Let's Keep This Conversation Going
       </h2>
 
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col md:flex-row intersect-once intersect:motion-preset-slide-up">
         <div className="w-full md:w-1/3 p-4">
           {contactData.map((contact, index) => (
             <Tilt
@@ -120,7 +120,7 @@ function Contact() {
           ))}
         </div>
 
-        <div className="w-full md:w-2/3 p-4">
+        <div className="w-full md:w-2/3 p-4 intersect:motion-preset-slide-up">
           <form
             ref={form}
             onSubmit={handleSubmit}
