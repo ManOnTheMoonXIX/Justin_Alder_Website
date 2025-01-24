@@ -120,7 +120,7 @@ function Contact() {
           ))}
         </div>
 
-        <div className="w-full md:w-2/3 p-4 intersect:motion-preset-slide-up">
+        <div className="w-full md:w-2/3 p-4">
           <form
             ref={form}
             onSubmit={handleSubmit}

@@ -37,7 +37,7 @@ function ProjectCard({ title, main, languages, demoLink, sourceLink }) {
     );
 
   return (
-    <div className="w-full sm:w-[340px] intersect:motion-opacity-in-0 intersect:motion-translate-y-in-100 p-3 md:p-6 flex flex-col bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
+    <div className="w-full sm:w-[340px] p-3 md:p-6 flex flex-col bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
       <div className="flex-grow">
         <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal mb-2">
           {title}
