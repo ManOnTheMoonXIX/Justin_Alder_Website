@@ -38,7 +38,7 @@ function Education() {
         Education
       </h2>
 
-      <div className="mt-8 grid intersect-once intersect:motion-opacity-in-0 intersect:motion-translate-y-in-100 grid-cols-1 gap-6 max-w-4xl mx-auto w-full">
+      <div className="mt-8 grid intersect:motion-opacity-in-0 intersect:motion-translate-y-in-100 grid-cols-1 gap-6 max-w-4xl mx-auto w-full">
         {educationData.map((edu) =>
           isMobile ? (
             <div

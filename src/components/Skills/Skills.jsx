@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaReact, FaPython, FaJava, FaHtml5 } from "react-icons/fa";
+import { FaReact, FaPython, FaJava, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { Tilt } from "react-tilt";
@@ -30,6 +30,11 @@ const SKILLS_DATA = [
     name: "Java",
     icon: <FaJava />,
     description: "Software Development",
+  },
+  {
+    name: "CSS",
+    icon: <FaCss3Alt />,
+    description: "Styling & Design",
   },
   {
     name: "Tailwind CSS",
