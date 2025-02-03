@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaReact, FaPython, FaJava, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { DiProlog } from "react-icons/di";
 import { SiJavascript, SiTailwindcss } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { Tilt } from "react-tilt";
@@ -45,6 +46,11 @@ const SKILLS_DATA = [
     name: "MySQL",
     icon: <GrMysql />,
     description: "Database Management",
+  },
+  {
+    name: "Prolog",
+    icon: <DiProlog />,
+    description: "Logic Programming",
   },
 ];
 

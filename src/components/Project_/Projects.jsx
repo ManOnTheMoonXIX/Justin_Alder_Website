@@ -13,7 +13,14 @@ function Projects() {
       main: "Yes, I'm including this website in my projects section.",
       languages: ["React/Vite", "JavaScript", "Tailwind CSS"],
       demoLink: "",
-      sourceLink: "",
+      sourceLink: "https://github.com/ManOnTheMoonXIX/Justin_Alder_Website",
+    },
+    {
+      title: "Space Invaders",
+      main: "Work In Progress 2D Space Invaders game.",
+      languages: ["HTML", "JavaScript", "CSS"],
+      demoLink: "",
+      sourceLink: "https://github.com/ManOnTheMoonXIX/Space-Invaders",
     },
   ];
 
