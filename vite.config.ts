@@ -9,10 +9,8 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  plugins: [react(), mode === "development" && componentTagger()].filter(
-    Boolean
-  ),
-  base: "/Justin_Alder_Website /",
+  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  base: "/Justin_Alder_Website/", // ✅ CORRECTED base path — no extra space!
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
