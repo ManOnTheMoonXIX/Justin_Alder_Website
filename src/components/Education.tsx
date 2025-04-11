@@ -1,6 +1,7 @@
-
 import { useState, useEffect } from "react";
 import { Calendar } from "lucide-react";
+import wolmersCrest from "../assets/wolmerscrest.jpeg";
+import utechCrest from "../assets/utechcrest.jpeg";
 
 function Education() {
   const [isMobile, setIsMobile] = useState(false);
@@ -19,21 +20,27 @@ function Education() {
   const educationData = [
     {
       school: "Wolmer's Boys School",
-      image: "/src/assets/wolmerscrest.jpeg",
+      image: wolmersCrest,
       degree: "High School Diploma",
       period: "2014 - 2021",
     },
     {
       school: "University of Technology",
-      image: "/src/assets/utechcrest.jpeg",
+      image: utechCrest,
       degree: "Bachelor of Science in Computing",
       period: "2021 - Present",
     },
   ];
 
-  const EducationCard = ({ edu, index }: { edu: typeof educationData[0], index: number }) => {
+  const EducationCard = ({
+    edu,
+    index,
+  }: {
+    edu: (typeof educationData)[0];
+    index: number;
+  }) => {
     return (
-      <div 
+      <div
         className="w-full p-6 bg-darkBg shadow-xl shadow-black/50 rounded-2xl flex flex-col items-center transition-all duration-300 hover:shadow-teal/20 hover:shadow-2xl hover:translate-y-[-5px] cursor-pointer"
         style={{ animationDelay: `${index * 200}ms` }}
       >
@@ -45,9 +52,7 @@ function Education() {
           />
         </div>
         <h3 className="text-xl font-bold mb-2 text-teal">{edu.school}</h3>
-        <p className="text-gray-200 text-lg mb-2">
-          {edu.degree}
-        </p>
+        <p className="text-gray-200 text-lg mb-2">{edu.degree}</p>
         <div className="flex items-center text-gray-400">
           <Calendar className="w-4 h-4 mr-2" />
           <p>{edu.period}</p>
